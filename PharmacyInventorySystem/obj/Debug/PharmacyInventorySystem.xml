@@ -1,0 +1,264 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PharmacyInventorySystem
+</name>
+</assembly>
+<members>
+<member name="T:PharmacyInventorySystem.Helpers">
+	<summary>
+ Flat UI Theme
+ Creator: iSynthesis (HF)
+ Version: 1.0.4
+ Date Created: 17/06/2013
+ Date Changed: 26/06/2013
+ UID: 374648
+ For any bugs / errors, PM me.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:PharmacyInventorySystem.FlatAlertBox.W">
+	<summary>
+ How to use: FlatAlertBox.ShowControl(Kind, String, Interval)
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.medicine_tblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.users_tblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.POStransaction_tblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.tempItems_tblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.transItems_tblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.medicine_tblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.users_tblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.POStransaction_tblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.tempItems_tblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.transItems_tblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.medicine_tblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.users_tblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.POStransaction_tblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.tempItems_tblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet.transItems_tblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.medicine_tblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.users_tblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.POStransaction_tblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.tempItems_tblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.transItems_tblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PharmacyInventorySystem.PharmacyDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PharmacyInventorySystem.PharmacyDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PharmacyInventorySystem.PharmacyDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(PharmacyInventorySystem.PharmacyDatabaseDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:PharmacyInventorySystem.PharmacyDatabaseDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources._1600">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources._4f69741d939759e40fd6e47ba054e1c5_ae73bb60ab6d4b68cfc4a1d22213ffe5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources._4f69741d939759e40fd6e47ba054e1c5_ae73bb60ab6d4b68cfc4a1d22213ffe51">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.account_box_grey_192x192">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.Blocks">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.btnCash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.btnNew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.btnRem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.delete_1_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.error1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.eye_icon_png_viewed_accomms_10">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.forme">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.help_icon_12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.icon_help_dark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.icons8_Add_List_96">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.icons8_Add_List_961">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.icons8_Menu_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.icons8_Zeitschrift_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.power">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.sign_add_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.sign_red_error_icon_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.todo_list1600">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.Untitled_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.Untitled_11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.User___add_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PharmacyInventorySystem.My.Resources.Resources.User___add_5121">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:PharmacyInventorySystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
