@@ -21,4 +21,15 @@ Sales
  Automatic Order
  Critical & expired items Notifier
  tip:
-you can double click on the datagrid to view details on medicines
+you can double click on the datagrid to view details on medicines, 
+in POS: shorcuts
+
+F1 - new transaction
+
+F2 - remove item( select first)
+
+F3 - tender cash
+
+tab - navigate
+
+insert - enter quantiy
