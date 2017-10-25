@@ -16,7 +16,7 @@ Reporting:
 Sales
 item list 
 transactions - not done
-
+ 
 not done:
 Automatic Order
 Critical & expired items Notifier
